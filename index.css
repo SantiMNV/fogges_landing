@@ -1,0 +1,119 @@
+/* Variables */
+:root {
+  --green-color: #00a28a;
+
+  /* Synthwave palette */
+  --pink: #d30cb8;
+  --pink-1: #be0ba6;
+  --pink-2: #a90a93;
+  --pink-3: #940881;
+  --pink-4: #7f076e;
+  --pink-5: #6a065c;
+  --pink-6: #54054a;
+  --pink-7: #3f0437;
+  --pink-8: #2a0225;
+  --pink-9: #150112;
+  --pink-pastel: #3c345c;
+
+  --blue: #6df1d8;
+  --blue-1: #62d9c2;
+  --blue-2: #57c1ad;
+  --blue-3: #4ca997;
+  --blue-4: #419182;
+  --blue-5: #37796c;
+  --blue-6: #2c6056;
+  --blue-7: #214841;
+  --blue-8: #16302b;
+  --blue-9: #0b1816;
+  --blue-pastel: #5da4a6;
+
+  --dark: #121212;
+  --dark-1: #2a2a2a;
+  --dark-2: #414141;
+  --dark-3: #595959;
+  --dark-4: #717171;
+  --dark-5: #898989;
+  --dark-6: #a0a0a0;
+  --dark-7: #b8b8b8;
+  --dark-8: #d0d0d0;
+  --dark-9: #e7e7e7;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--dark);
+}
+
+.main {
+  height: 90%;
+  width: 100%;
+  display: table;
+}
+
+.wrapper {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+  color: var(--dark-8);
+  font-family:Newtown,
+  Verdana,
+  sans-serif;
+}
+
+#brand-name{
+  font-size: 90px;
+  color: #fefefe;
+}
+
+#brand-name img{
+  height:80px;
+}
+
+#timer {
+  color: #fefefe;
+  font-size:10vw;
+  font-style:italic;
+}
+
+#timer div {
+  display: inline-block;
+  padding: 15px;
+}
+
+#timer div div {
+  display: block;
+  font-size: 2vw;
+}
+
+form{
+  padding:60px;
+}
+
+form>div{
+  padding:40px;
+}
+
+input {
+  padding:5px 10px;
+  height: 40px;
+  min-width: 50%;
+  background-color: var(--dark-9);
+  /* border: 1px solid var(--pink); */
+  border: none !important;
+  border-radius: 4px;
+  font-size:20px;
+  outline: none;
+
+}
+
+input[type="submit"]{
+  cursor: pointer;
+  background-color: var(--dark-1);
+  color: #fefefe;
+}
+
+input[type="submit"]:hover{
+  background-color: var(--dark-2);
+}
